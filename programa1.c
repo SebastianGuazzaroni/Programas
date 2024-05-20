@@ -2,7 +2,7 @@
  Para considerarlo apto debe cumplir por lo menos una de las siguientes condiciones:
 	- Que en ninguna de las pruebas haga un tiempo mayor a 16 minutos.
 	- Que al menos en una de las pruebas realice un tiempo mayor a 16 minutos.
-    - Que su promedio de tiempos sea menor o igual a 15 minutos.*/
+    - Que su promedio de tiempos sea menor o igual a 15 minutos.:/*/
 
 #include <stdio.h>
 #include <stdlib.h>
