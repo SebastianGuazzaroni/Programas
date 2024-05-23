@@ -19,8 +19,8 @@ int main()
     int totalVentasCajera2[7];
     int totalVentasSemana1 = 0;
     int totalVentasSemana2 = 0;
-    int menorVenta1 = 1000000000;
-    int menorVenta2 = 1000000000;
+    int menorVenta1 = 1e5;
+    int menorVenta2 = 1e5;
     int diaMenorVenta1=0, diaMenorVenta2=0;
     int totalVentasSemanal = 0;
 
@@ -37,7 +37,7 @@ int main()
         totalVentasSemana2 += totalVentasCajera2[i];
 
     }
-
+    
     totalVentasSemanal = totalVentasSemana2 + totalVentasSemana1;
 
     for(int i = 0; i <= 6; i++)
@@ -55,7 +55,7 @@ int main()
     }
     
     int premio = 0;
-
+    
     if(totalVentasSemana1 > totalVentasSemana2)
     {
         premio = 1;
