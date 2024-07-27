@@ -1,1 +1,7 @@
-    else if(promedio15 = 1) c = 1;
+
+    for(int i = 1; i <= n; i++)
+    {
+        if(n % i == 0) div++;
+    }
+    printf("%d", div);
+}
